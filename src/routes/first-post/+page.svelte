@@ -10,5 +10,7 @@
 </script>
 
 <Post>
-  <article slot="post_content" />
+  <article slot="post_content">
+    <h2 id="first-post"><a href="#first-post">👋 First Post</a></h2>
+  </article>
 </Post>
