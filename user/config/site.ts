@@ -2,26 +2,28 @@ import type { Site } from '$lib/types/site';
 import type { Giscus } from '$lib/types/giscus';
 import type { DD } from '$lib/types/dd';
 
-import Avatar from '$assets/avatar.png';
-import Avatar_128 from '$assets/avatar.png?w=128&h=128&format=avif;webp&imagetools';
-import Avatar_48_PNG from '$assets/avatar.png?w=48&h=48&imagetools';
-import Avatar_96_PNG from '$assets/avatar.png?w=96&h=96&imagetools';
-import Avatar_192_PNG from '$assets/avatar.png?w=192&h=192&imagetools';
-import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
+import Avatar from '$assets/meditating_avatar.jpg';
+import Avatar_128 from '$assets/meditating_avatar.jpg?w=128&h=128&format=avif;webp&imagetools';
+import Avatar_48_PNG from '$assets/meditating_avatar.jpg?w=48&h=48&imagetools';
+import Avatar_96_PNG from '$assets/meditating_avatar.jpg?w=96&h=96&imagetools';
+import Avatar_192_PNG from '$assets/meditating_avatar.jpg?w=192&h=192&imagetools';
+import Avatar_512_PNG from '$assets/meditating_avatar.jpg?w=512&h=512&imagetools';
 
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'https://svelte-qwer.vercel.app',
-  title: 'QWER',
-  subtitle: '🚀 QWER - Built using Svelte with ❤',
-  description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
+  url: 'https://anamnesis.space',
+  title: 'The Anamnesis Space',
+  subtitle:
+    'The most important forms of knowledge come not from instruction, but by a re-awakening of already existing dormant or latent knowledge. This is called anamnesis',
+  description: '',
   lang: 'en',
-  timeZone: 'Asia/Taipei',
+  timeZone: 'Australia/Sydney',
   since: 2022,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
+    name: 'oephi',
+    bio: '',
     status: '🚀',
     statusTip:
       '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
@@ -31,16 +33,12 @@ export const siteConfig: Site.Config = {
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://github.com/kwchang0831/svelte-QWER',
-    github: 'https://github.com/kwchang0831',
-    email: 'contact@kwchang0831.dev',
-    bio: `Peace begins <br/> With a smile`,
   },
 };
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://github.com/oephi'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -91,7 +89,7 @@ export const dateConfig: Site.DateConfig = {
 // Replace with your own Giscus setting
 // See https://giscus.app/
 export const giscusConfig: Giscus.Config = {
-  enable: true,
+  enable: false,
   id: 'giscus-comment',
   repo: import.meta.env.QWER_GISCUS_REPO,
   repoId: import.meta.env.QWER_GISCUS_REPO_ID,
@@ -107,38 +105,38 @@ export const giscusConfig: Giscus.Config = {
 };
 
 export const navConfig: (DD.Nav | DD.Link)[] = [
-  {
-    name: 'About',
-    url: '/about',
-  },
-  {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
-  },
-  {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
-  },
+  // {
+  //   name: 'About',
+  //   url: '/about',
+  // },
+  // {
+  //   name: 'See Docs 📄',
+  //   url: 'https://docs-svelte-qwer.vercel.app/',
+  //   rel: 'external',
+  // },
+  // {
+  //   name: 'Get QWER 🚀',
+  //   url: 'https://github.com/kwchang0831/svelte-QWER',
+  //   rel: 'external',
+  // },
 ];
 
 export const mobilenavConfig: DD.Nav = {
   orientation: 2,
   links: [
-    {
-      name: 'About',
-      url: '/about',
-    },
-    {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
-    },
-    {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
-    },
+    // {
+    //   name: 'About',
+    //   url: '/about',
+    // },
+    // {
+    //   name: 'See Docs 📄',
+    //   url: 'https://docs-svelte-qwer.vercel.app/',
+    //   rel: 'external',
+    // },
+    // {
+    //   name: 'Get QWER 🚀',
+    //   url: 'https://github.com/kwchang0831/svelte-QWER',
+    //   rel: 'external',
+    // },
   ],
 };

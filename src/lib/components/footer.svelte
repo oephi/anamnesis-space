@@ -44,17 +44,6 @@
             <span itemprop="copyrightHolder">{siteConfig.author.name}</span>
           </a>
         </p>
-        <div class="">
-          Powered by
-          <a
-            use:tippy
-            aria-label={$LL.QWER()}
-            rel="external"
-            href="https://github.com/kwchang0831/svelte-QWER"
-            class="font-900">
-            QWER
-          </a>
-        </div>
         <a
           itemprop="copyrightNotice"
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
