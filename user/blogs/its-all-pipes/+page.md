@@ -1,10 +1,10 @@
 ---
 title: It's all pipes
-created: 2023-01-09
+published: 2023-01-09
 summary: Describing states of consciousness can be difficult.
 cover: '/its-all-pipes/pipes.avif'
 coverStyle: "TOP"
-tags: ['Spirituality']
+tags: ['Meditation']
 ---
 
 I’ve been involved in spiritual practice now for the majority of my time here on earth. To varying degress of seriousness of course, though I do include those many years of partying to have been the process of unearthing those parts of me that could embrace altered states (right!?!?). So because of this, anyone who knows me for any decent length of time discovers that I’m into exploring consciousness. And depending on the person, a variety of questions will often develop over time.

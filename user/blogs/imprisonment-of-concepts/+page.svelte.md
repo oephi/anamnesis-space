@@ -3,7 +3,7 @@ title: The Imprisonment of Concepts
 created: 2023-01-09
 summary: A story from Tales of the Ladder.
 cover: '/imprisonment-of-concepts/blackgrid.avif'
-tags: ['Spirituality']
+tags: ['Spirituality', 'Story']
 ---
 
 <span style="color:grey"><i>&#60;A man and a child stand on a pathway in a dark expanse with little blob beings encased in chains&gt;</i></span>
