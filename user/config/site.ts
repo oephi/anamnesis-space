@@ -2,18 +2,18 @@ import type { Site } from '$lib/types/site';
 import type { Giscus } from '$lib/types/giscus';
 import type { DD } from '$lib/types/dd';
 
-import Avatar from '$assets/meditating_avatar.jpg';
-import Avatar_128 from '$assets/meditating_avatar.jpg?w=128&h=128&format=avif;webp&imagetools';
-import Avatar_48_PNG from '$assets/meditating_avatar.jpg?w=48&h=48&imagetools';
-import Avatar_96_PNG from '$assets/meditating_avatar.jpg?w=96&h=96&imagetools';
-import Avatar_192_PNG from '$assets/meditating_avatar.jpg?w=192&h=192&imagetools';
-import Avatar_512_PNG from '$assets/meditating_avatar.jpg?w=512&h=512&imagetools';
+import Avatar from '$assets/meditation_drawing.jpeg';
+import Avatar_128 from '$assets/meditation_drawing.jpeg?w=128&h=128&format=avif;webp&imagetools';
+import Avatar_48_PNG from '$assets/meditation_drawing.jpeg?w=48&h=48&imagetools';
+import Avatar_96_PNG from '$assets/meditation_drawing.jpeg?w=96&h=96&imagetools';
+import Avatar_192_PNG from '$assets/meditation_drawing.jpeg?w=192&h=192&imagetools';
+import Avatar_512_PNG from '$assets/meditation_drawing.jpeg?w=512&h=512&imagetools';
 
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
   url: 'https://anamnesis.space',
-  title: 'The Anamnesis Space',
+  title: 'The λnamnesis Space',
   subtitle:
     'The most important forms of knowledge come not from instruction, but by a re-awakening of already existing dormant or latent knowledge. This is called anamnesis',
   description: '',
@@ -24,9 +24,8 @@ export const siteConfig: Site.Config = {
   author: {
     name: 'oephi',
     bio: '',
-    status: '🚀',
-    statusTip:
-      '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
+    status: '🤔',
+    statusTip: '💭',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
@@ -105,10 +104,10 @@ export const giscusConfig: Giscus.Config = {
 };
 
 export const navConfig: (DD.Nav | DD.Link)[] = [
-  // {
-  //   name: 'About',
-  //   url: '/about',
-  // },
+  {
+    name: 'About',
+    url: '/about',
+  },
   // {
   //   name: 'See Docs 📄',
   //   url: 'https://docs-svelte-qwer.vercel.app/',
@@ -124,10 +123,10 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
 export const mobilenavConfig: DD.Nav = {
   orientation: 2,
   links: [
-    // {
-    //   name: 'About',
-    //   url: '/about',
-    // },
+    {
+      name: 'About',
+      url: '/about',
+    },
     // {
     //   name: 'See Docs 📄',
     //   url: 'https://docs-svelte-qwer.vercel.app/',

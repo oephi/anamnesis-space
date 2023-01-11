@@ -1,9 +1,10 @@
 ---
 title: The Process
-created: 2023-01-09
+published: '2023-01-09T00:00:00.000+11:00'
+updated: '2023-01-09T00:00:00.000+11:00'
 summary: The unknown is not the unknowable.
 cover: '/the-process/shadow.avif'
-tags: ['Spirituality']
+tags: ['Alchemy']
 ---
 
 The purpose of Alchemy is the trasmutation of one state to another. And where I feel the literature fails us, and what perhaps can prevent a person really embracing a spiritual path, is that it never truly elaborates on the fact that the things we can experience during that transition is so much more exciting and fulfilling than anything our minds can pursuade our attention with. Now part of this is because of the difficulty in relating experiences which I have addressed here. However it’s important to know that walking a path geared towards tranformation is not just going to change the parts of you that you want changed. It can potentially completely change who you are.
