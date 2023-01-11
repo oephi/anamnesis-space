@@ -1,8 +1,8 @@
 ---
 title: About The λnamnesis Space
 description: What is Anamnesis?
-published: '2023-01-10T00:00:00.000+08:00'
-updated: '2023-01-10T00:00:00.000+08:00'
+published: '2023-01-10T00:00:00.000+11:00'
+updated: '2023-01-10T00:00:00.000+11:00'
 # cover: /qwer.webp
 options:
   - unlisted

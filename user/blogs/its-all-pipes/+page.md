@@ -1,6 +1,8 @@
 ---
 title: It's all pipes
-published: 2023-01-09
+published: 2023-01-090T00:00:00.000+11:00
+updated: 2023-01-090T00:00:00.000+11:00
+updated: 2023-01-09
 summary: Describing states of consciousness can be difficult.
 cover: '/its-all-pipes/pipes.avif'
 coverStyle: "TOP"
