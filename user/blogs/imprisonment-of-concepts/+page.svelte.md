@@ -1,7 +1,7 @@
 ---
 title: 'The Imprisonment of Concepts'
-published: '2023-01-090T00:00:00.000+11:00'
-updated: '2023-01-090T00:00:00.000+11:00'
+published: '2023-01-09T00:00:00.000+11:00'
+updated: '2023-01-09T00:00:00.000+11:00'
 summary: 'A story from Tales of the Ladder.'
 cover: '/imprisonment-of-concepts/blackgrid.avif'
 tags: ['Spirituality', 'Story']

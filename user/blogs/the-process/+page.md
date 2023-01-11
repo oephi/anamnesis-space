@@ -1,7 +1,7 @@
 ---
 title: The Process
-published: '2023-01-090T00:00:00.000+11:00'
-updated: '2023-01-090T00:00:00.000+11:00'
+published: '2023-01-09T00:00:00.000+11:00'
+updated: '2023-01-09T00:00:00.000+11:00'
 summary: The unknown is not the unknowable.
 cover: '/the-process/shadow.avif'
 tags: ['Alchemy']
